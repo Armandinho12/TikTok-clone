@@ -1,18 +1,40 @@
 .videoSidebar {
     position: absolute;
-    top: 50%;
-    right: 10px;
+    top: 47%;
+    right: 15px;
     color: white;
 }
 
-.videoSidebar__options {
-    padding: 20px;
-    text-align: center;
 
+.videoSidebar__options {
+    padding: 13px;
+    text-align: center;
+   }
+
+
+
+.likedIcon {
+    color: red;
 }
 
+.sharedIcon {
+    color: orange;
+}
+
+.whatsAppIcon {
+    color: green;
+}
+.AddCircleI{
+    position: absolute;
+    top: 41%;
+    right: 10px;
+    ;
+}
+
+
+
 @media only screen and (max-width: 440px) {
-   .videoSidebar{
-    top: 46%;
-   }
+    .videoSidebar {
+        top: 46%;
+    }
 }

@@ -38,7 +38,8 @@ function App() {
               name={item.name}
               description={item.description}
               music={item.music}
-              url={item.url}           />
+              url={item.url}   
+              whats={item.whats}        />
 
           )
 
